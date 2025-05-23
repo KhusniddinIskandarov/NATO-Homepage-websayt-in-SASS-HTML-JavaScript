@@ -1,0 +1,56 @@
+.header {
+    width: 97vw;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 35px 0;
+    .main--header {
+        display: flex;
+        .header__logo {
+            width: 58%;
+            img {
+                width: 100%;
+            }
+        }
+        .header__language {
+            display: flex;
+            margin-left: auto;
+            align-items: center;
+            position: relative;
+            top: -28px;
+            margin-right: 55px;
+            .header__email {
+                background-image: linear-gradient(rgba(128, 128, 128, 0.668), rgba(128, 128, 128, 0.485)), url('/image/20110401_tv.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 20px;
+                margin-right: 25px;
+                color: white;
+                padding: 5px 7px 5px 10px;
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+                small {
+                    margin: 0 25px 0 7px;
+                }
+                i {
+                    &:nth-child(1) {
+                        font-size: 14px;
+                    }
+                    &:nth-child(3) {
+                        font-size: 11px;
+                    }
+                }
+            }
+            .header__english {
+                select {
+                    border: none;
+                    color: lighten(#000000, 30%);
+                }
+            }
+        }
+    }
+    // .navigation {
+
+    // }
+}
