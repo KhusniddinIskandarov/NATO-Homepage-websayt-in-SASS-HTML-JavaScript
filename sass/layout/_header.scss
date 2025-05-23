@@ -9,6 +9,7 @@
             width: 58%;
             img {
                 width: 100%;
+                cursor: pointer;
             }
         }
         .header__language {
@@ -19,7 +20,7 @@
             top: -28px;
             margin-right: 55px;
             .header__email {
-                background-image: linear-gradient(rgba(128, 128, 128, 0.668), rgba(128, 128, 128, 0.485)), url('/image/20110401_tv.jpg');
+                background-image: linear-gradient(rgba(128, 128, 128, 0.835), rgba(128, 128, 128, 0.995)), url('/image/20110401_tv.jpg');
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -30,6 +31,10 @@
                 display: flex;
                 align-items: center;
                 text-transform: uppercase;
+                cursor: pointer;
+                &:hover {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.691));
+                }
                 small {
                     margin: 0 25px 0 7px;
                 }
@@ -44,6 +49,7 @@
             }
             .header__english {
                 select {
+                    cursor: pointer;
                     border: none;
                     color: lighten(#000000, 30%);
                 }
