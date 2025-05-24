@@ -172,17 +172,35 @@
                 &:nth-child(2){
                     .list__row {
                         &:first-child {
-                            margin-right: 60px;
+                            margin-right: 40px;
                         }
                         &:last-child {
-                            left: 40px;
+                            left: 0;
                         }
+                        .padding-left-chiziq {
+                            padding-left: 40px;
+                        }
+                        
                     }
                     .watch-series {
                         a {
                             &::before {
                                 display: none;
                             }
+                        }
+                    }
+                }
+                &:nth-child(3){
+                    .list__row {
+                        margin-right: 40px;
+                        &:first-child {
+                            margin-right: 10px;
+                        }
+                        &:last-child {
+                            left: 40px;
+                        }
+                        .padding-left-chiziq {
+                            padding-left: 40px;
                         }
                     }
                 }
