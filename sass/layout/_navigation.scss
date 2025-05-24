@@ -7,6 +7,7 @@
         .navigation__items {
             padding-left: 0;
             display: flex;
+            position: relative;
             .navigation__item {
                 list-style: none;
                 margin-right: 17px;
@@ -46,12 +47,11 @@
 
                 }
                 .list {
-                    display: flex;
+                    display: none;
                     position: absolute;
                     background-color: white;
                     width: 1100px;
                     padding: 40px 35px 30px 40px;
-                    
                     &__row {
                         padding-left: 0;
                         position: relative;
@@ -157,6 +157,31 @@
                                         }
                                     }
                                 }
+                            }
+                        }
+                    }
+                }
+                &:hover {
+                    .list {
+                        display: flex;
+                        position: absolute;
+                        top: 30px;
+                        left: 0;
+                    }
+                }
+                &:nth-child(2){
+                    .list__row {
+                        &:first-child {
+                            margin-right: 60px;
+                        }
+                        &:last-child {
+                            left: 40px;
+                        }
+                    }
+                    .watch-series {
+                        a {
+                            &::before {
+                                display: none;
                             }
                         }
                     }

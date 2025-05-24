@@ -63,6 +63,7 @@
 .navigation .navigation__menu .navigation__items {
   padding-left: 0;
   display: flex;
+  position: relative;
 }
 .navigation .navigation__menu .navigation__items .navigation__item {
   list-style: none;
@@ -90,7 +91,7 @@
   transition: all 0.2s ease;
 }
 .navigation .navigation__menu .navigation__items .navigation__item .list {
-  display: flex;
+  display: none;
   position: absolute;
   background-color: white;
   width: 1100px;
@@ -182,6 +183,21 @@
 }
 .navigation .navigation__menu .navigation__items .navigation__item .list__row:last-child span:last-child .list__row-col span:last-child .list__row-col--link::before {
   content: none;
+}
+.navigation .navigation__menu .navigation__items .navigation__item:hover .list {
+  display: flex;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+.navigation .navigation__menu .navigation__items .navigation__item:nth-child(2) .list__row:first-child {
+  margin-right: 60px;
+}
+.navigation .navigation__menu .navigation__items .navigation__item:nth-child(2) .list__row:last-child {
+  left: 40px;
+}
+.navigation .navigation__menu .navigation__items .navigation__item:nth-child(2) .watch-series a::before {
+  display: none;
 }
 .navigation .navigation__search {
   position: relative;
