@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   width: 97vw;
   display: flex;
@@ -250,6 +255,157 @@
   width: 90%;
   height: 90%;
   padding-left: 35px;
+}
+
+.latest-news {
+  position: relative;
+  top: -10px;
+  background-color: #000000;
+  color: white;
+  padding: 0 40px 0;
+  height: 500px;
+}
+.latest-news h2 {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: 21px;
+  letter-spacing: -0.5px;
+  font-weight: bold;
+}
+.latest-news__cards {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.latest-news__cards .latest-news__card {
+  margin-right: 15px;
+}
+.latest-news__cards .latest-news__card:nth-child(1) {
+  width: 2000px;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image {
+  position: relative;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  cursor: pointer;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image__hover {
+  position: absolute;
+  top: 240px;
+  left: 0;
+  padding-left: 25px;
+  background-color: rgba(0, 0, 0, 0.688);
+  cursor: pointer;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image__hover h4 {
+  color: #0cb1ff;
+  margin-top: 10px;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image__hover h3 {
+  margin-top: -15px;
+  font-size: 23px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image__hover p {
+  display: none;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image__hover div {
+  display: flex;
+  position: relative;
+  bottom: 15px;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image__hover div span {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image__hover div span i {
+  margin-right: 8px;
+  font-size: 13px;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image__hover div span small {
+  font-size: 17px;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image__hover:hover {
+  top: 0;
+  padding-bottom: 140px;
+  background-color: rgba(0, 0, 0, 0.688);
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image__hover:hover h3 {
+  transition: all 0.3s ease;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image__hover:hover h3:hover {
+  color: #0080CC;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image__hover:hover p {
+  display: block;
+  width: 95%;
+  padding-bottom: 20px;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image__hover:hover div span {
+  transition: all 0.3s ease;
+}
+.latest-news__cards .latest-news__card:nth-child(1) .news__card--image__hover:hover div span:hover {
+  color: #0080CC;
+}
+.latest-news__cards .latest-news__card:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+.latest-news__cards .latest-news__card:nth-child(2) div p {
+  font-size: 16px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.latest-news__cards .latest-news__card:nth-child(2) div p:hover {
+  color: #0cb1ff;
+}
+.latest-news__cards .latest-news__card:nth-child(2) div img {
+  width: 220px;
+  height: 120px;
+  cursor: pointer;
+}
+.latest-news__cards .latest-news__card:nth-child(3) {
+  margin-right: 0;
+  border: 1px solid rgba(255, 255, 255, 0.197);
+  border-top: none;
+  border-bottom: none;
+}
+.latest-news__cards .latest-news__card:nth-child(3) p {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.197);
+  padding: 15px 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.latest-news__cards .latest-news__card:nth-child(3) p:first-child {
+  padding-top: 25px;
+}
+.latest-news__cards .latest-news__card:nth-child(3) p:hover {
+  background-color: #0080CC;
+  color: white;
+}
+.latest-news__cards .latest-news__card:nth-child(3) h5 {
+  margin: 0;
+  padding: 15px 25px 37px 170px;
+  position: relative;
+  color: #0cb1ff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.latest-news__cards .latest-news__card:nth-child(3) h5:hover {
+  background-color: #0080CC;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */

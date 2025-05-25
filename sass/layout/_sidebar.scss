@@ -1,0 +1,155 @@
+.latest-news {
+    position: relative;
+    top: -10px;
+    background-color: #000000;
+    color: white;
+    padding: 0 40px 0;
+    height: 500px;
+    h2 {
+        padding-top: 20px;
+        text-transform: uppercase;
+        font-size: 21px;
+        letter-spacing: -0.5px;
+        font-weight: bold;
+    }
+    &__cards {
+        display: flex;
+        position: relative;
+        width: 100%;
+        .latest-news__card {
+            margin-right: 15px;
+            &:nth-child(1) {
+                width: 2000px;
+                .news__card--image {
+                position: relative;
+                img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    cursor: pointer;
+                }
+                &__hover {
+                    position: absolute;
+                    top: 240px;
+                    left: 0;
+                    padding-left: 25px;
+                    background-color: rgba(0, 0, 0, 0.688);
+                    cursor: pointer;
+                    h4 {
+                        color: #0cb1ff;
+                        margin-top: 10px;
+                    }
+                    h3 {
+                        
+                        margin-top: -15px;
+                        font-size: 23px;
+                        letter-spacing: 0.5px;
+                        font-weight: 500;
+                    }
+                    p {
+                        display: none;
+                    }
+                    div {
+                        display: flex;
+                        position: relative;
+                        bottom: 15px;
+                        span {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 20px;
+                            i {
+                                margin-right: 8px;
+                                font-size: 13px;
+                            }
+                            small {
+                                font-size: 17px;
+                            }
+                        }
+                    }
+                    &:hover {
+                    top: 0;
+                    padding-bottom: 140px;
+                    background-color: rgba(0, 0, 0, 0.688);
+                    h3 {
+                            transition: all 0.3s ease;
+                        &:hover {
+                            color: #0080CC;
+                        }
+                    }
+                    p {
+                        display: block;
+                        width: 95%;
+                        padding-bottom: 20px;
+                        font-size: 18px;
+                        letter-spacing: 0.2px;
+                    }
+                    div {
+                        span {
+                            transition: all 0.3s ease;
+                            &:hover{
+                                color: #0080CC;
+                            }
+                        }
+                    }
+                    }
+                }
+            }
+            }
+            &:nth-child(2){
+                display: flex;
+                flex-direction: column;
+                div {
+                    p {
+                        font-size: 16px;
+                        margin-top: 5px;
+                        cursor: pointer;
+                        transition: all 0.2s ease;
+                        &:hover {
+                            color: #0cb1ff;
+                        }
+                    }
+                    img {
+                        width: 220px;
+                        height: 120px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            &:nth-child(3) {
+                margin-right: 0;
+                border: 1px solid rgba(255, 255, 255, 0.197);
+                border-top: none;
+                border-bottom: none;
+                p {
+                    &:first-child {
+                        padding-top: 25px;
+                    }
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.197);
+                    padding: 15px 15px 25px;
+                    font-size: 16px;
+                    cursor: pointer;
+                    transition: all 0.2s ease;
+                    &:hover {
+                        background-color: #0080CC;
+                        color: white;
+                    }
+                }
+                h5 {
+                    margin: 0;
+                    padding: 15px 25px 37px 170px;
+                    position: relative;
+                    color: #0cb1ff;
+                    cursor: pointer;
+                    transition: all 0.2s ease;
+                    &:hover {
+                        background-color: #0080CC;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
