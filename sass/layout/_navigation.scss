@@ -204,6 +204,26 @@
                         }
                     }
                 }
+                &:nth-child(4){
+
+                    .list__row {
+                        &:first-child {
+
+                        }
+                        &:last-child {
+                            display: flex;
+                            flex-direction: column;
+                            margin-left: 30px;
+                            .list__row-col {
+                                position: relative;
+                                &:last-child{
+                                    position: absolute;
+                                    margin-top: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

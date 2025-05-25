@@ -214,6 +214,18 @@
 .navigation .navigation__menu .navigation__items .navigation__item:nth-child(3) .list__row .padding-left-chiziq {
   padding-left: 40px;
 }
+.navigation .navigation__menu .navigation__items .navigation__item:nth-child(4) .list__row:last-child {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.navigation .navigation__menu .navigation__items .navigation__item:nth-child(4) .list__row:last-child .list__row-col {
+  position: relative;
+}
+.navigation .navigation__menu .navigation__items .navigation__item:nth-child(4) .list__row:last-child .list__row-col:last-child {
+  position: absolute;
+  margin-top: 30px;
+}
 .navigation .navigation__search {
   position: relative;
   margin-right: 40px;
