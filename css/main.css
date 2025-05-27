@@ -61,6 +61,171 @@ body {
   color: rgba(0, 0, 0, 0.891);
 }
 
+.the-secretary--general {
+  margin-top: 100px;
+  padding: 0 40px;
+}
+.the-secretary--general .the__cards {
+  display: flex;
+}
+.the-secretary--general .the__cards .the__card {
+  width: 35%;
+  box-sizing: border-box;
+}
+.the-secretary--general .the__cards .the__card--name {
+  margin-bottom: 25px;
+}
+.the-secretary--general .the__cards .the__card--name i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.the-secretary--general .the__cards .the__card--name span {
+  font-size: 19px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  cursor: default;
+}
+.the-secretary--general .the__cards .the__card--name p {
+  font-size: 19px;
+  letter-spacing: 0.3px;
+  cursor: default;
+}
+.the-secretary--general .the__cards .the__card--info {
+  display: flex;
+  flex-direction: column;
+}
+.the-secretary--general .the__cards .the__card--info div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #0080CC;
+}
+.the-secretary--general .the__cards .the__card--info div i {
+  font-size: 12px;
+  margin-right: 13px;
+}
+.the-secretary--general .the__cards .the__card--info div span {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.the-secretary--general .the__cards .the__card--info div span:hover {
+  color: black;
+}
+.the-secretary--general .the__cards .the__card--pages {
+  padding-right: 25px;
+}
+.the-secretary--general .the__cards .the__card--pages .pages__top {
+  text-transform: uppercase;
+  padding-bottom: 7px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.615);
+  color: black;
+  margin-bottom: 20px;
+}
+.the-secretary--general .the__cards .the__card--pages .pages__top span {
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.the-secretary--general .the__cards .the__card--pages .pages__top span:first-child {
+  padding-bottom: 7px;
+  border-bottom: 3.5px solid #0080CC;
+}
+.the-secretary--general .the__cards .the__card--pages .pages__top span:last-child {
+  color: #0080CC;
+  margin-left: 15px;
+  padding-bottom: 7px;
+  border-bottom: 3.5px solid transparent;
+}
+.the-secretary--general .the__cards .the__card--pages .pages__top span:last-child:hover {
+  color: black;
+  border-bottom: 3.5px solid #0080CC;
+}
+.the-secretary--general .the__cards .the__card--pages .pages__bottom div {
+  display: flex;
+  align-items: center;
+}
+.the-secretary--general .the__cards .the__card--pages .pages__bottom div span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.the-secretary--general .the__cards .the__card--pages .pages__bottom div .mr-20px {
+  margin-right: 20px;
+  padding: 2px;
+  border: 1px solid rgba(128, 128, 128, 0.23);
+  cursor: default;
+}
+.the-secretary--general .the__cards .the__card--pages .pages__bottom div .mr-20px small {
+  font-weight: 400;
+  color: grey;
+  font-size: 12px;
+}
+.the-secretary--general .the__cards .the__card--pages .pages__bottom div .mr-20px span {
+  font-weight: 600;
+  font-size: 22px;
+}
+.the-secretary--general .the__cards .the__card--pages .pages__bottom div p {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.the-secretary--general .the__cards .the__card--pages .pages__bottom div p:hover {
+  color: #0080CC;
+}
+.the-secretary--general .the__cards .the__card--image {
+  position: relative;
+  cursor: pointer;
+}
+.the-secretary--general .the__cards .the__card--image span {
+  position: absolute;
+  right: 20px;
+  background-color: #031018;
+  color: rgba(255, 255, 255, 0.603);
+  padding: 8px;
+  height: 100px;
+}
+.the-secretary--general .the__cards .the__card--image span i {
+  position: relative;
+  top: 38px;
+  font-size: 24px;
+}
+.the-secretary--general .the__cards .the__card:last-child .the__card--info {
+  margin-top: 15px;
+}
+.the-secretary--general .the__cards .the__card:last-child .the__card--info div {
+  position: relative;
+}
+.the-secretary--general .the__cards .the__card:last-child .the__card--info div i {
+  position: absolute;
+  font-size: 13px;
+  top: 3px;
+}
+.the-secretary--general .the__cards .the__card:last-child .the__card--info div span {
+  position: absolute;
+  color: black;
+  top: 0;
+  left: 20px;
+  font-size: 18px;
+  transition: all 0.2s ease;
+}
+.the-secretary--general .the__cards .the__card:last-child .the__card--info div span:hover {
+  color: #0080CC;
+}
+.the-secretary--general .the__cards .the__card:last-child .the__card--info h5 {
+  color: rgba(128, 128, 128, 0.689);
+  padding: 10px 20px 3px;
+  margin-bottom: 0;
+  font-size: 14px;
+  cursor: default;
+}
+.the-secretary--general .the__cards .the__card:last-child .the__card--info p {
+  margin-top: 0;
+  padding: 0 20px;
+  font-size: 18px;
+  cursor: default;
+}
+
 .featured {
   position: relative;
   padding: 30px 40px 70px;
