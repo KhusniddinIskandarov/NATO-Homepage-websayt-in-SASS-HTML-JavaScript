@@ -74,10 +74,10 @@
         }
     }
     .round__button {
-            position: absolute;
-            left: 600px;
-            bottom: 30px;
-            span {
+        position: absolute;
+        left: 600px;
+        bottom: 30px;
+        span {
                 display: inline-block;
                 content: "";
                 width: 12px;
@@ -92,6 +92,6 @@
                 &:hover {
                     background-color: rgba(128, 128, 128, 0.694);
                 }
-            }
         }
+    }
 }

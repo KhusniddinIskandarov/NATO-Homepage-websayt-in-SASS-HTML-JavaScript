@@ -8,6 +8,59 @@ body {
   margin: 0 auto;
 }
 
+.what--is__nato {
+  margin-top: 100px;
+  padding: 0 40px;
+}
+.what--is__nato--cards {
+  display: flex;
+}
+.what--is__nato--cards .what--is__nato--card {
+  width: 33%;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+.what--is__nato--cards .what--is__nato--card .card__name {
+  margin-bottom: 15px;
+}
+.what--is__nato--cards .what--is__nato--card .card__name i {
+  font-size: 22px;
+  margin-right: 8px;
+}
+.what--is__nato--cards .what--is__nato--card .card__name span {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.what--is__nato--cards .what--is__nato--card .card__image {
+  cursor: pointer;
+}
+.what--is__nato--cards .what--is__nato--card .card__info {
+  width: 95%;
+}
+.what--is__nato--cards .what--is__nato--card .card__info h5 {
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.what--is__nato--cards .what--is__nato--card .card__info div {
+  display: flex;
+  margin-bottom: 10px;
+  color: #0080CC;
+}
+.what--is__nato--cards .what--is__nato--card .card__info div i {
+  font-size: 12px;
+  margin-right: 10px;
+}
+.what--is__nato--cards .what--is__nato--card .card__info div div {
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.what--is__nato--cards .what--is__nato--card .card__info div div:hover {
+  color: rgba(0, 0, 0, 0.891);
+}
+
 .featured {
   position: relative;
   padding: 30px 40px 70px;
