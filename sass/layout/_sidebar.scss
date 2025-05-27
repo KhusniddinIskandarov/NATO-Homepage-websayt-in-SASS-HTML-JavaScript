@@ -27,12 +27,17 @@
                     top: 0;
                     left: 0;
                     width: 100%;
+                    min-width: 650px;
+                    height: 362px;
                     cursor: pointer;
                 }
                 &__hover {
                     position: absolute;
                     top: 240px;
+                    padding-bottom: 20px;
                     left: 0;
+                    width: 100%;
+                    box-sizing: border-box;
                     padding-left: 25px;
                     background-color: rgba(0, 0, 0, 0.688);
                     cursor: pointer;
@@ -69,7 +74,7 @@
                     }
                     &:hover {
                     top: 0;
-                    padding-bottom: 140px;
+                    padding-bottom: 160px;
                     background-color: rgba(0, 0, 0, 0.688);
                     h3 {
                             transition: all 0.3s ease;

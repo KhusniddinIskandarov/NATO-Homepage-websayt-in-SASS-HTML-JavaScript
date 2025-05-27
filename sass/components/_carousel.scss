@@ -1,0 +1,97 @@
+.featured {
+    position: relative;
+    padding: 30px 40px 70px;
+    background-color: #ECEFF2;
+    .featured__burger {
+        display: flex;
+        margin-bottom: 20px;
+        i {
+            font-size: 22px;
+            margin-right: 10px;
+        }
+        span {
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+    }
+    .carousel {
+        padding: 0 40px;
+        &__cards {
+            display: flex;
+            .carousel__card {
+                margin-right: 20px;
+                
+                .card__image {
+                    display: flex;
+                    position: relative;
+                    img {
+                        width: 205px;
+                        cursor: pointer;
+                    }
+                    .card__image--icon {
+                        position: absolute;
+                        height: 100%;
+                        width: 28px;
+                        right: -40px;
+                        background-color: #2F3030;
+                        cursor: pointer;
+                        i {
+                            position: absolute;
+                            top: 50px;
+                            left: 5px;
+                            font-size: 26px;
+                            color: rgba(255, 255, 255, 0.781);
+                        }
+                    }
+                }
+                .card__info {
+                    padding-left: 2px;
+                    h5 {
+                        margin: 5px 0 6px;
+                        font-size: 12px;
+                        font-weight: 400;
+                        color: grey;
+                    }
+                    .card__info-text {
+                        width: 90%;
+                        i {
+                            margin-right: 5px;
+                            font-size: 14px;
+                            color: rgba(0, 0, 0, 0.758);
+                            cursor: pointer;
+                        }
+                        span {
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: rgba(0, 0, 0, 0.758);
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .round__button {
+            position: absolute;
+            left: 600px;
+            bottom: 30px;
+            span {
+                display: inline-block;
+                content: "";
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                background-color: rgba(128, 128, 128, 0.422);
+                margin-right: 10px;
+                cursor: pointer;
+                &:first-child {
+                    background-color: rgba(128, 128, 128, 0.694);
+                }
+                &:hover {
+                    background-color: rgba(128, 128, 128, 0.694);
+                }
+            }
+        }
+}
