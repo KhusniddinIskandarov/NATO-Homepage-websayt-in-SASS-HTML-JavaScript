@@ -214,9 +214,75 @@
                         padding: 0 20px;
                         font-size: 18px;
                         cursor: default;
+                        padding-bottom: 35px;
+                        border-bottom: 1px solid rgba(128, 128, 128, 0.245);
                     }
                 }
             }
         }
     }
+}
+
+.subscript-to__nato--updates {
+    margin-top: 150px;
+    position: relative;
+    @include flex;
+    flex-direction: column;
+    .back--to__top {
+        margin-left: auto;
+        margin-right: 50px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: grey;
+        cursor: pointer;
+        span {
+            font-size: 14px;
+        }
+        i {
+            font-size: 13px;
+            transform: rotate(-90deg);
+            margin-left: 5px;
+            position: relative;
+            top: 2px;
+        }
+    }
+    .nato__updates {
+        padding: 65px 0;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #257FB6;
+        @include center;
+        span {
+            position: relative;
+            input {
+                padding: 12px 120px 12px 20px;
+                font-size: 18px;
+                background-color: #FFFFFF;
+                border: none;
+                outline: none;
+                text-align: center;
+            }
+            span {
+                padding: 13px 100px 13px 15px;
+                font-size: 18px;
+                text-transform: uppercase;
+                position: relative;
+                background-color: #9EA5A9;
+                color: white;
+                cursor: pointer;
+                &:hover {
+                    background-color: #64696B;
+                }
+            }
+            i {
+                color: white;
+                position: absolute;
+                font-size: 20px;
+                right: 10px;
+                top: 2px;
+            }
+        }
+    }
+
 }

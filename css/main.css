@@ -224,6 +224,75 @@ body {
   padding: 0 20px;
   font-size: 18px;
   cursor: default;
+  padding-bottom: 35px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.245);
+}
+
+.subscript-to__nato--updates {
+  margin-top: 150px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+  flex-direction: column;
+}
+.subscript-to__nato--updates .back--to__top {
+  margin-left: auto;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: grey;
+  cursor: pointer;
+}
+.subscript-to__nato--updates .back--to__top span {
+  font-size: 14px;
+}
+.subscript-to__nato--updates .back--to__top i {
+  font-size: 13px;
+  transform: rotate(-90deg);
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}
+.subscript-to__nato--updates .nato__updates {
+  padding: 65px 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #257FB6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscript-to__nato--updates .nato__updates span {
+  position: relative;
+}
+.subscript-to__nato--updates .nato__updates span input {
+  padding: 12px 120px 12px 20px;
+  font-size: 18px;
+  background-color: #FFFFFF;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+.subscript-to__nato--updates .nato__updates span span {
+  padding: 13px 100px 13px 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  position: relative;
+  background-color: #9EA5A9;
+  color: white;
+  cursor: pointer;
+}
+.subscript-to__nato--updates .nato__updates span span:hover {
+  background-color: #64696B;
+}
+.subscript-to__nato--updates .nato__updates span i {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  right: 10px;
+  top: 2px;
 }
 
 .featured {
