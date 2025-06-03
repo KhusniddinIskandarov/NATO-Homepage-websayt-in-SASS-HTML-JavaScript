@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -229,7 +230,7 @@ body {
 }
 
 .subscript-to__nato--updates {
-  margin-top: 150px;
+  margin-top: 100px;
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -803,6 +804,83 @@ body {
 .latest-news__cards .latest-news__card:nth-child(3) h5:hover {
   background-color: #0080CC;
   color: white;
+}
+
+.footer {
+  background-color: #000000;
+  position: relative;
+  top: -19px;
+  background-image: url("/image/Без названия (3).png");
+  background-repeat: no-repeat;
+  background-size: 480px 480px;
+  background-position: top;
+}
+.footer__menu {
+  padding-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+  flex-flow: wrap;
+}
+.footer__menu div {
+  width: 19.5%;
+  box-sizing: border-box;
+}
+.footer__menu div h3 {
+  color: rgba(255, 255, 255, 0.808);
+  margin-left: 40px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.footer__menu div ul {
+  list-style: none;
+}
+.footer__menu div ul li {
+  margin-bottom: 10px;
+}
+.footer__menu div ul li a {
+  color: rgba(255, 255, 255, 0.702);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.footer__menu div ul li a:hover {
+  text-decoration: underline;
+}
+.footer__menu div:last-child {
+  width: 21%;
+  position: relative;
+  left: 250px;
+  top: -70px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2274509804);
+}
+.footer__social {
+  width: 100%;
+  position: relative;
+  margin-bottom: 0;
+}
+.footer__social ul {
+  position: relative;
+  right: -750px;
+  list-style: none;
+  display: flex;
+  padding-bottom: 10px;
+}
+.footer__social ul li {
+  padding: 10px 20px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.footer__social ul li a {
+  color: white;
+  font-size: 20px;
+  transition: all 0.2s ease;
+}
+.footer__social ul li:hover a {
+  color: rgb(0, 128, 204);
 }
 
 /*# sourceMappingURL=main.css.map */

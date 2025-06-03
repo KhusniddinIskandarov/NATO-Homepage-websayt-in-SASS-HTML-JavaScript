@@ -3,9 +3,14 @@
     align-items: center;
     justify-content: center;
 }
-
 @mixin flex{
     display: flex;
     align-items: flex-start;
     justify-content: stretch;
+}
+
+@mixin bg-image{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }

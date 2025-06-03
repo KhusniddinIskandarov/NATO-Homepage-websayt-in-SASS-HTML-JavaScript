@@ -1,0 +1,76 @@
+.footer {
+    background-color: #000000;
+    position: relative;
+    top: -19px;
+    background-image: url('/image/Без\ названия\ \(3\).png');
+    background-repeat: no-repeat;
+    background-size: 480px 480px;
+    background-position: top;
+    &__menu {
+        padding-top: 30px;
+        @include flex;
+        flex-flow: wrap;
+        div {
+            width: 19.5%;
+            box-sizing: border-box;
+            h3 {
+                color: rgba(255, 255, 255, 0.808);
+                margin-left: 40px;
+                margin-bottom: 30px;
+                text-transform: uppercase;
+                font-size: 15px;
+                font-weight: 300;
+                letter-spacing: 1px;
+            }
+            ul {
+                list-style: none;
+                li {
+                    margin-bottom: 10px;
+                    a {
+                        color: rgba(255, 255, 255, 0.702);
+                        text-decoration: none;
+                        cursor: pointer;
+                        transition: all 0.2s ease;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            &:last-child {
+                width: 21%;
+                position: relative;
+                left: 250px;
+                top: -70px;
+                border-left: 1px solid #ffffff3a;
+            }
+        }
+    }
+    &__social {
+        width: 100%;
+        position: relative;
+        margin-bottom: 0;
+        ul {
+            position: relative;
+            right: -750px;
+            list-style: none;
+            display: flex;
+            padding-bottom: 10px;
+            li {
+                padding: 10px 20px;
+                border: 1px solid white;
+                cursor: pointer;
+                a {
+                    color: white;
+                    font-size: 20px;
+                    transition: all 0.2s ease;
+                }
+                &:hover {
+                    a {
+                        color: rgb(0, 128, 204);
+                    }
+                }
+            }
+        }
+    }
+}
